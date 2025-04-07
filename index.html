@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <meta name="description" content="A tool for detecting deepfakes, hate speech, and misinformation." />
+  <title>GOOGLE GUARDIAN</title>
+  <link rel="stylesheet" href="GOOGLE_GAURDIAN.css" />
+</head>
+<body>
+  <header>
+    <h1>GOOGLE GUARDIAN</h1>
+    <p>Because the internet needs a GUARDIAN.</p>
+  </header>
+
+  <main>
+    <section id="features">
+      <h2>Features</h2>
+      <ul>
+        <li><strong>Hate Speech Recognition:</strong> Identify and flag harmful language.</li>
+        <li onclick="alert('This feature is under development!!')"><strong>Deepfake Detection:</strong> Analyze media to detect manipulated content.</li>
+        <li onclick="alert('This feature is under development!!')"><strong>Misinformation Detection:</strong> Verify the authenticity of information.</li>
+      </ul>
+    </section>
+
+    <section id="get-started">
+      <h2>Get Started</h2>
+      <p>Upload your content or input text to begin analysis.</p>
+      <button onclick="startAnalysis()">Start Now</button>
+    </section>
+
+    <section id="analyze-text">
+      <h2>Analyze Text</h2>
+      <textarea id="inputText" rows="6" cols="50" placeholder="Enter text here..."></textarea><br>
+      <button onclick="analyzeText()">Analyze Text</button>
+      <p id="result"></p>
+    </section>
+  </main>
+
+  <footer>
+    <p>&copy; 2025 GOOGLE GUARDIAN. All rights reserved.</p>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
